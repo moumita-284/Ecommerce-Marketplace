@@ -1,0 +1,39 @@
+.pdt-card{
+    width: 250px;
+    height: fit-content;
+    display: inline-block;
+    margin : 10px;
+    vertical-align: top;
+    background-color : rgb(227, 135, 37) ;
+    padding : 0px;
+    border-radius: 50px 50px 10px 10px;
+}
+.name{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+}
+.price{
+    font-size: 25px;
+    color: black;
+    padding-left: 10px;
+}
+.price::after{
+    content: "Rs";
+    font-size: 14px;
+}
+.details{
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.pdt-img{
+    width : 100%;
+    aspect-ratio: 1/1;
+    object-fit: 10px;
+    border-radius: 50px;
+}
+.but{
+    text-align: center;
+    padding-bottom: 10px;
+}

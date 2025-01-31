@@ -1,0 +1,33 @@
+#header
+	{
+		height:50px;
+		width:100%;
+		background-color:#2fc224;
+		color:#fff;
+		text-indent:5px;
+		font-weight: bold;
+		
+	}
+    #header h3
+	{
+		position:relative;
+		top:8px;
+		color:#d4dee3;
+		text-indent:80px;
+		font-size:30px;
+		clear:both;
+		font-family:arial;
+		font-weight: bold;
+	}
+    #header img
+	{
+		position:absolute;
+		height:45px;
+		width:45px;
+		margin-left:20px;
+		margin-top:2.5px;
+	}	
+    .abcd{
+        margin-left: 55%;
+
+    }

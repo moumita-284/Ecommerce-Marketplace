@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="../css/bg.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <link rel="stylesheet" type="text/css" href="../css/logsign.css">
+    
+</head>
+<title>Online Fruits Shop</title>
+
+<body>
+        <div class="d-flex justify-content-center align-items-center vh-100">
+
+            <form action="signup.php" method="post" class="w-50 bg-warning p-3" onsubmit="return validate()">
+                <h3 class="text-center">Signup here...</h3>
+
+                <input class="form-control mt-3" type="text" placeholder="Enter username" name="username">
+                <input class="form-control mt-2" type="password" placeholder="Enter password" name="password">
+                <input class="form-control mt-2" type="password" placeholder="Enter confirm password">
+
+                <select class="form-control mt-2" name="usertype">
+                    <option value="Seller">Seller</option>
+                    <option value="Buyer">Buyer</option>
+                </select>
+
+                <div class="text-center mt-3">
+                    <button class="btn btn-success">SignUp</button>
+                </div>
+                <div>
+                    <br>
+                    <h6 class="trans">Already have account:</h6>
+                    <div class="trans">
+                        <a href="login.html">Click Log in</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+</body>
+</html>

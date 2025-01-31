@@ -1,0 +1,21 @@
+.card{
+    width: 400px;
+    height: 550px;
+    display: flex;
+    margin : 20px;
+    background-color : rgba(209, 238, 62, 0.664) ;
+    padding : 20px;
+    align-items: center;
+    justify-content: center;
+}
+.headt{
+    text-align: center;
+    color: #29840b;
+    
+}
+.container {
+    display: flex;
+    margin-top: 2%;
+    justify-content: center;
+    height: 100vh;
+}
